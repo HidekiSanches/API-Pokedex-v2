@@ -1,8 +1,8 @@
-<h1>Pokedex-API-v2</h1>
+<h1>API-Pokedex-v2</h1>
 
 <h2>Descrição</h2>
 <p>
-  Pokedex-API-v2 é uma API RESTful desenvolvida em Java com Spring Boot, que fornece dados detalhados sobre todos os Pokémon. Esta versão atualizada oferece novos recursos, melhorias de desempenho e dados adicionais, permitindo uma integração mais eficiente e informativa para desenvolvedores que desejam incorporar informações da Pokédex em seus aplicativos.
+  API-Pokedex-v2 é uma API RESTful desenvolvida em Java com Spring Boot, que fornece dados detalhados sobre todos os Pokémon. Esta versão atualizada oferece novos recursos, melhorias de desempenho e dados adicionais, permitindo uma integração mais eficiente e informativa para desenvolvedores que desejam incorporar informações da Pokédex em seus aplicativos.
 </p>
 
 <h2>Recursos</h2>
@@ -24,10 +24,10 @@
 <h2>Instalação</h2>
 <ol>
   <li>Clone o repositório:
-    <pre><code>git clone https://github.com/HidekiSanches/Pokedex-API-v2.git</code></pre>
+    <pre><code>git clone https://github.com/HidekiSanches/API-Pokedex-v2.git</code></pre>
   </li>
   <li>Navegue até o diretório do projeto:
-    <pre><code>cd Pokedex-API-v2</code></pre>
+    <pre><code>cd API-Pokedex-v2</code></pre>
   </li>
   <li>Configure as variáveis de ambiente no arquivo <code>application.properties</code> conforme o exemplo fornecido em <code>application.properties.example</code>.</li>
   <li>Compile e execute o projeto:
@@ -73,5 +73,5 @@
 <p>Para questões e sugestões, por favor, abra uma issue ou entre em contato:</p>
 <ul>
   <li><strong>Email:</strong> sanches.thi81@gmail.com</li>
-  <li><strong>GitHub Issues:</strong> <a href="https://github.com/HidekiSanches/Pokedex-API-v2/issues">Issues</a></li>
+  <li><strong>GitHub Issues:</strong> <a href="https://github.com/HidekiSanches/API-Pokedex-v2/issues">Issues</a></li>
 </ul>
