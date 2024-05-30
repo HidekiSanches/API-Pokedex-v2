@@ -35,12 +35,7 @@ jobs:
       - name: Check and Replace Properties File
         run: |
           if [ $PROFILE == "production" ]; then
-            cp -f path/to/application-production.properties path/to/application.properties
-          elif [ $PROFILE == "development" ]; then
-            cp -f path/to/application-development.properties path/to/application.properties
-          elif [ $PROFILE == "test" ]; then
-            cp -f path/to/application-test.properties path/to/application.properties
-          fi
+            cp -f pokedex\src\main\resources\application-production.properties pokedex\src\main\resources\application.properties
 
       - name: Build and Test with Maven
         run: mvn -B -f pokedex/pom.xml clean verify
