@@ -1,4 +1,10 @@
+![image](https://github.com/HidekiSanches/API-Pokedex-v2/assets/111136206/68863552-b993-47fc-b98e-9b2252298d0b)
+
 <h1>API-Pokedex-v2</h1>
+<div style="justify-content: space-around">
+  <img src="https://img.shields.io/badge/Made%20with-Java-1f425f.svg">
+  <img src="https://img.shields.io/badge/Made%20with-SpringBoot-1f425f.svg">
+</div>
 
 <h2>Descrição</h2>
 <p>
