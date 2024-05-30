@@ -35,11 +35,11 @@ jobs:
       - name: Check and Replace Properties File
         run: |
           if [ $PROFILE == "production" ]; then
-            cp -f path/to/production/application.properties path/to/application.properties
+            cp -f path/to/application-production.properties path/to/application.properties
           elif [ $PROFILE == "development" ]; then
-            cp -f path/to/development/application.properties path/to/application.properties
+            cp -f path/to/application-development.properties path/to/application.properties
           elif [ $PROFILE == "test" ]; then
-            cp -f path/to/test/application.properties path/to/application.properties
+            cp -f path/to/application-test.properties path/to/application.properties
           fi
 
       - name: Build and Test with Maven
