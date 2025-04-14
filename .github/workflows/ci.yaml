@@ -32,8 +32,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Debug - List files
-        run: ls -la
-
       - name: Build and Test with Maven
         run: mvn -B clean verify
+        working-directory: ./api
