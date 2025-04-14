@@ -34,9 +34,14 @@ jobs:
 
       - name: Check and Replace Properties File
         run: |
-          if [ $PROFILE == "test" ]; then
+          if [ "${{ github.event.inputs.PROFILE }}" == "test" ]; then
+            echo "Substituindo application.properties pelo application-test.properties"
             cp -f pokedex/src/main/resources/application-test.properties pokedex/src/main/resources/application.properties
           fi
+
+      - name: Set Spring Profile Active
+        run: |
+          echo "spring.profiles.active=test" >> pokedex/src/main/resources/application.properties
 
       - name: Build and Test with Maven
         run: mvn -B clean verify
