@@ -1,4 +1,4 @@
-![image](https://github.com/HidekiSanches/API-Pokedex-v2/assets/111136206/68863552-b993-47fc-b98e-9b2252298d0b)
+![image](https://i.pinimg.com/736x/2b/1d/fe/2b1dfec19b945a19ac39641278a6a799.jpg)
 
 <h1>API-Pokedex-v2</h1>
 <div style="justify-content: space-around">
