@@ -32,6 +32,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      - name: Debug - Mostrar estrutura de pastas
+        run: |
+          echo "Diretório atual:"
+          pwd
+          echo "Conteúdo do diretório:"
+          ls -la
+          echo "Buscando arquivos pom.xml:"
+          find . -name pom.xml
+
       - name: Build and Test with Maven
         run: mvn -B clean verify
-        working-directory: ./api
