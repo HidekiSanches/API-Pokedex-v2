@@ -32,6 +32,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      - name: Check and Replace Properties File
+        run: |
+          if [ $PROFILE == "test" ]; then
+            cp -f pokedex/src/main/resources/application-test.properties pokedex/src/main/resources/application.properties
+          fi
+
       - name: Build and Test with Maven
         run: mvn -B clean verify
         working-directory: ./pokedex
